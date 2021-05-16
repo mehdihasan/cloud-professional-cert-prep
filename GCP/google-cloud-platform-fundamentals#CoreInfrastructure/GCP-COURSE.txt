@@ -1,0 +1,54 @@
+# Introduction to Google Cloud Platform
+
+Virtualised data centres: 
+	- IAAS: Infrastructrue as a service
+		> raw compute storage and network
+		> pay for what has been allocated
+	- PAAS: Platform as a Service
+		> provide infrastructure / libraries to run my application
+		> pay for what we use
+
+
+NEW CONCEPTS > Cloud shifted to 
+	- Managed infrastructure and 
+	- Managed Services
+
+
+40% of total internet > Google
+100,000s km of fiber cable / 8 subsea cable
+
+How does google minimise latency ?
+Edge Caching Network
+
+
+## GCP Regions and Zones
+Zone - Deployment area
+Zones are grouped into Regions - Independent geographic areas. 15 regions.
+
+## Pricing Innovatins
+
+
+
+
+# Getting Started with Google Cloud Platform
+
+## Introduction
+
+> Projects: to manage project
+> Google Cloud Identity & Access Management (IAM): to control who can do what
+> Principle of Least Privilege 
+> 4 ways to interact with GCP: 
+	(1) Cloud platform console
+	(2) Cloud Shell and Cloud SDK
+	(3) Cloud Console Mobile App
+	(4) REST-based API 
+
+
+## Google Cloud Platform resource hierarchy
+
+## Identity and Access Management (IAM)
+> Who part: google account/google group/service account/gsuite/cloud identity domain
+> Can do what part: defined by IAM role (collection of permissions)
+> Which resource part
+
+## IAM Roles
