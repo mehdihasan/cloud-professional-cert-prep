@@ -18,6 +18,7 @@ gcloud config get-value compute/region
 ```
 ```bash
 gcloud config set compute/zone us-central1-a
+gcloud config set compute/region us-central1
 ```
 
 #### View the list of configurations in your environment:
