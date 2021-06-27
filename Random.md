@@ -1,1 +1,1 @@
-block storage - unstructured files
+block storage - unstructured files - operating system manages data as chunks of disk
