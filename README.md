@@ -17,3 +17,11 @@ https://app.efficientlearning.com/my-account/
 ## 
 1. [Official Documentation](https://cloud.google.com/docs#section-1)
 2. [Anthos, Istio, Cloud run > knative > serverless in k8s](https://youtu.be/42RmVrM7B7E)
+
+
+## Topics Based Resource
+
+### Autoscaling
+1. [Cluster Autoscaler](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)
+1. [HorizontalPodAutoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/)
+
