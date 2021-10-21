@@ -6,7 +6,8 @@
 - Review the Container-Native Load Balancing lesson.
 
 ## Online test bank
-https://app.efficientlearning.com/my-account/
+1. [follow this 21 Oct 2021](https://www.examtopics.com/exams/google/professional-cloud-architect/)
+2. https://app.efficientlearning.com/my-account/
 
 
 ## Other insignificant resources
