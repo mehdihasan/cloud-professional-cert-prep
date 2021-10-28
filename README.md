@@ -26,3 +26,7 @@
 1. [Cluster Autoscaler](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)
 1. [HorizontalPodAutoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/)
 
+## Choosing Solutions
+
+### Database
+- based on type of data (structured/non-structured), SQL or NoSQL, Consistency(strong or eventual), amount of data(MB, GB, TB, PB, ExB), read-write pattern(read only or read-write), cost etc.

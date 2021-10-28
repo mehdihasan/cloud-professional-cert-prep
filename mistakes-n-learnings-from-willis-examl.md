@@ -3,3 +3,4 @@
 - **Cloud Dataprep**: Cloud Dataprep is service for preparing data for analysis, such as machine learning.
 - **Cloud Dataproc**: is a Hadoop and Spark managed service. Option C is incorrect. 
 - **Cloud Dataflow**: is an implementation of Apache Beam, a stream and batch processing service. 
+- **Cloud Bigtable**: replacement for Apache HBase. 
