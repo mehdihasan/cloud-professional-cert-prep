@@ -100,21 +100,6 @@ URL: https://private-billing-service-timgvfhwwq-uc.a.run.app
 gcloud iam service-accounts create billing-service-sa --display-name "Billing Service Cloud Run"
 
 
-///////////////////////
-gcloud run services add-iam-policy-binding billing-service \
-  --member=serviceAccount:billing-service-sa@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com \
-  --role=roles/run.invoker \
-  --region us-central1 \
-  --platform managed
-
-PROJECT_NUMBER=$(gcloud projects list \
- --format="value(PROJECT_NUMBER)" \
- --filter="$GOOGLE_CLOUD_PROJECT")
-
-gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT \
-  --member=serviceAccount:service-$PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com \
-
-
 ## Task 5: Deploy the Billing Service
 
 PROD_BILLING_SERVICE=billing-prod-service
@@ -146,11 +131,6 @@ PROD_BILLING_URL=$(gcloud run services \
 
 
 echo $PROD_BILLING_URL
-
-
-curl -X get -H "Authorization: Bearer \
-  $(gcloud auth print-identity-token)" \
-  $PROD_BILLING_URL
 
 
 https://billing-prod-service-timgvfhwwq-uc.a.run.app
@@ -202,7 +182,3 @@ FE_PROD_URL=$(gcloud run services \
   --platform managed \
   --region us-central1 \
   --format "value(status.url)")
-
-curl -X get -H "Authorization: Bearer \
-  $(gcloud auth print-identity-token)" \
-  $FE_PROD_URL
