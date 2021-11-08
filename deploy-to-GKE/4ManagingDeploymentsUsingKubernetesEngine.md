@@ -11,7 +11,7 @@ gcloud config set project \
   $(gcloud projects list --format='value(PROJECT_ID)' \
   --filter='qwiklabs-gcp')
 
-gcloud config set compute/zone us-central1-b
+gcloud config set compute/zone us-central1-a
 
 gsutil -m cp -r gs://spls/gsp053/orchestrate-with-kubernetes .
 cd orchestrate-with-kubernetes/kubernetes
@@ -123,8 +123,6 @@ kubectl rollout resume deployment/hello
 
 kubectl rollout status deployment/hello
 
-deployment "hello" successfully rolled out
-
 
 
 ### Rollback an update
@@ -145,6 +143,35 @@ kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}
 ### Create a canary deployment
 
 cat deployments/hello-canary.yaml
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-canary
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+        track: canary
+        # Use ver 2.0.0 so it matches version on service selector
+        version: 2.0.0
+    spec:
+      containers:
+        - name: hello
+          image: kelseyhightower/hello:2.0.0
+          ports:
+            - name: http
+              containerPort: 80
+            - name: health
+              containerPort: 81
+...
+```
 
 kubectl create -f deployments/hello-canary.yaml
 
