@@ -47,7 +47,7 @@
 
 ## Cloud Client Libraries, the Cloud SDK, and the Firebase SDKs
 
-## Overview of Data Storage Options
+## [Overview of Data Storage Options](https://googlecourses.qwiklabs.com/course_sessions/513169/video/101448)
 
 ## Best Practices for using Datastore
 
