@@ -1,0 +1,1 @@
+# Building Resilient Streaming Analytics Systems on Google Cloud
