@@ -1,4 +1,6 @@
-#  [Professional Data Engineer](https://partner.cloudskillsboost.google/course_templates/244)
+# [Professional Data Engineer](https://cloud.google.com/certification/guides/data-engineer)
+
+## [Course](https://partner.cloudskillsboost.google/course_templates/244)
 
 1. [Google Cloud Big Data and Machine Learning Fundamentals](https://partner.cloudskillsboost.google/course_templates/3)
 2. Data Engineering on Google Cloud
@@ -15,3 +17,14 @@
 6. [Engineer Data in Google Cloud](https://partner.cloudskillsboost.google/quests/132)
 7. [Preparing for the Google Cloud Professional Data Engineer Exam](https://partner.cloudskillsboost.google/course_templates/72)
 8. [Professional Data Engineer - EXAM GUIDE](https://cloud.google.com/certification/guides/data-engineer)
+
+
+## Other Resources
+1. https://github.com/sathishvj/awesome-gcp-certifications
+2. https://github.com/angulartist/google-cloud-data-engineer-resources
+3. https://github.com/jorwalk/data-engineering-gcp
+
+
+## Exam Practice
+1. [Wiley Efficient Learning](https://app.efficientlearning.com/my-account/?source=WELLogin)
+2. https://github.com/jorwalk/data-engineering-gcp/tree/master/practice-exam
