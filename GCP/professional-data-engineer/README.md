@@ -1,6 +1,11 @@
 # [Professional Data Engineer](https://cloud.google.com/certification/guides/data-engineer)
 
-A Professional Data Engineer enables data-driven decision-making by collecting, transforming, and publishing data. A data engineer should be able to design, build, operationalize, secure, and monitor data processing systems with a particular emphasis on security and compliance; scalability and efficiency; reliability and fidelity; and flexibility and portability. A data engineer should also be able to leverage, deploy, and continuously train pre-existing machine learning models.
+A Professional Data Engineer enables data-driven decision-making by collecting, transforming, and publishing data. 
+
+A data engineer should be able to design, build, operationalize, secure, and monitor data processing systems with a particular emphasis on security and compliance; scalability and efficiency; reliability and fidelity; and flexibility and portability. 
+
+A data engineer should also be able to leverage, deploy, and continuously train pre-existing machine learning models.
+
 
 ## Topics
 
@@ -178,6 +183,23 @@ A Professional Data Engineer enables data-driven decision-making by collecting, 
 8. [Professional Data Engineer - EXAM GUIDE](https://cloud.google.com/certification/guides/data-engineer)
 
 
+## Birds Eye View
+1. [Data-Engineering-on-GCP-Cheatsheet](https://github.com/ml874/Data-Engineering-on-GCP-Cheatsheet)
+2. [Data-Engineering-GCP](https://github.com/jorwalk/data-engineering-gcp)
+3. [PDE-1 Quick, GCP Professional Data Engineer - BigQuery, JSON, schema, auto detect, temp/permanent](https://www.youtube.com/watch?v=7UOX2R-xf8I)
+
+
+## Advanced (User Stories)
+1. [Overview of cloud game infrastructure](https://cloud.google.com/architecture/cloud-game-infrastructure)
+2. [The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing](https://research.google/pubs/pub43864/)
+3. [Apache Beam with Frances Perry](https://softwareengineeringdaily.com/2016/08/19/apache-beam-with-frances-perry/)
+4. [Key Takeaways from Strata + Hadoop World 2017 San Jose, Day 1](https://www.kdnuggets.com/2017/03/strata-hadoop-san-jose-key-takeaways.html)
+5. Spotify’s Event Delivery [Part I](https://engineering.atspotify.com/2016/02/spotifys-event-delivery-the-road-to-the-cloud-part-i/) [Part II](https://engineering.atspotify.com/2016/03/spotifys-event-delivery-the-road-to-the-cloud-part-ii/) [Part III](https://engineering.atspotify.com/2016/03/spotifys-event-delivery-the-road-to-the-cloud-part-iii/)
+6. [Streaming 101: The world beyond batch](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
+7. [Streaming 102: The world beyond batch](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-102/)
+8. [Streaming Systems](http://streamingsystems.net/)
+
+
 ## Other Resources
 1. https://github.com/sathishvj/awesome-gcp-certifications
 2. https://github.com/angulartist/google-cloud-data-engineer-resources
@@ -187,3 +209,5 @@ A Professional Data Engineer enables data-driven decision-making by collecting, 
 ## Exam Practice
 1. [Wiley Efficient Learning](https://app.efficientlearning.com/my-account/?source=WELLogin)
 2. https://github.com/jorwalk/data-engineering-gcp/tree/master/practice-exam
+3. [google practice exam](https://cloud.google.com/certification/data-engineer)
+4. [whizlabs Google Cloud Certified Professional Data Engineer](https://www.whizlabs.com/google-cloud-certified-professional-data-engineer/)
