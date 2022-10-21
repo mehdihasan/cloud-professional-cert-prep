@@ -12,6 +12,7 @@
   - [What is Dataflow?](https://www.youtube.com/watch?v=KalJ0VuEM7s)
   - Building Data Processing Pipelines
     - [Serverless Data Processing with Dataflow - Writing an ETL pipeline using Apache Beam and Cloud Dataflow (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103667)
+      - read the data as batch from the source system -> parse it -> write it to BigQuery 
     - [Serverless Data Processing with Dataflow - Batch Analytics Pipelines with Cloud Dataflow (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103674)
     - [Serverless Data Processing with Dataflow - Using Dataflow for Streaming Analytics (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103676)
   - Dataflow Ops
