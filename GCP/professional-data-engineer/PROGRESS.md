@@ -7,10 +7,12 @@
 ## Process and Analyze
 
 - Dataflow
-  - Apache Beam
+  - Apache Beam: Apache Beam is an open source, advanced, unified and portable data processing programming model that allows end users to define both batch and streaming data-parallel processing pipelines using Java, Python, or Go. Apache Beam pipelines can be executed on your local development machine on small datasets, and at scale on Cloud Dataflow. However, because Apache Beam is open source, other runners exist — you can run Beam pipelines on Apache Flink and Apache Spark, among others.
+  ![](https://cdn.qwiklabs.com/jm%2FNqn%2FwCrYjVEN0qIz1VU%2BX1x3KYukp5IeCk30oasQ%3D)
   - [What is Dataflow?](https://www.youtube.com/watch?v=KalJ0VuEM7s)
   - Building Data Processing Pipelines
     - [Serverless Data Processing with Dataflow - Writing an ETL pipeline using Apache Beam and Cloud Dataflow (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103667)
+      - read the data as batch from the source system -> parse it -> write it to BigQuery 
     - [Serverless Data Processing with Dataflow - Batch Analytics Pipelines with Cloud Dataflow (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103674)
     - [Serverless Data Processing with Dataflow - Using Dataflow for Streaming Analytics (Java)](https://partner.cloudskillsboost.google/course_sessions/1069823/labs/103676)
   - Dataflow Ops
