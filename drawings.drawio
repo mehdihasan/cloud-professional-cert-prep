@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="g29Loqwiy553MWlrHJXE" name="Warehouse">
-        <mxGraphModel dx="1054" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="587" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;b&gt;DATA WAREHOUSE&lt;br&gt;&lt;/b&gt;&lt;br&gt;Dimensional Data Model&amp;nbsp;&lt;br&gt;&lt;br&gt;Denormalized: Keep related data together in a minimal number of tables so few joins are required." style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;spacingTop=2;spacing=13;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
                     <mxGeometry x="250" y="280" width="230" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" parent="1" source="4" target="2">
+                <mxCell id="6" style="edgeStyle=none;html=1;strokeWidth=3;fontColor=#FFFFFF;" edge="1" parent="1" source="4" target="2">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="280" as="targetPoint"/>
                     </mxGeometry>
@@ -15,7 +15,7 @@
                 <mxCell id="4" value="DataSource 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
                     <mxGeometry x="140" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" parent="1" source="5">
+                <mxCell id="7" style="edgeStyle=none;html=1;strokeWidth=3;fontColor=#FFFFFF;" edge="1" parent="1" source="5">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="390" y="280" as="targetPoint"/>
                     </mxGeometry>
@@ -23,10 +23,10 @@
                 <mxCell id="5" value="DataSource 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
                     <mxGeometry x="330" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;b&gt;To Answer Analytic Quries Efficiently&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="8" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;To Answer Analytic Quries Efficiently&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="250" y="460" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;strokeWidth=3;entryX=0.952;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9" target="2">
+                <mxCell id="10" style="edgeStyle=none;html=1;strokeWidth=3;entryX=0.952;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="9" target="2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Datasource N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
