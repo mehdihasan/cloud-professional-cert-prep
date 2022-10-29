@@ -32,10 +32,12 @@ DAGs: Directed Acyclic Graphs (DAGs)
 
 3. Machine Learning Pipelines
    1. Data Ingestion (Cloud Storage / Cloud PubSub)
-   2. Data Pre-Processing (DataProc / DataFlow / DataPrep)
-   3. Feature Engineering
-   4. Model Training & Evulation
-   5. Deployment
+   2. Data Preparation / Pre-Processing (DataProc / DataFlow / DataPrep)
+   3. Data segregation / Feature Engineering
+   4. Model Training
+   5. Model Evulation
+   6. Model Deployment
+   7. Model Monitoring
 
 ## Components
 
@@ -56,3 +58,8 @@ DAGs: Directed Acyclic Graphs (DAGs)
 
 - Apache Airflow: scheduling, monitoring and managing workflow.
 - What is a workflow? - Python instructions.
+
+
+## Further Improvement
+1. [Hadoop 101](https://courses.cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0111EN+v1/course/)
+2. [Spark Fundamentals I](https://courses.cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0211EN+v1/course/)
