@@ -9,7 +9,7 @@
 5. [Designing for Security and Compliance](designing-for-security-compliance.md)
 6. [Designing Databases for Reliability, Scalability, and Availability](designing-databases-for-reliability-scalability-availability.md)
 7. [Understanding Data Operations for Flexibility and Protability](understanding-data-operations-for-flexibility-protability.md)
-8. [Deploying Machine Learning Pipelines](deploying-machine-learning-pipelines.md)
+8. OK [Deploying Machine Learning Pipelines](deploying-machine-learning-pipelines.md)
 9. [Choosing Training and Serving Infrastructure](choosing-training-serving-infrastructure.md)
 10. [Measuring, Monitoring, and Troubleshooting Machine Learning Models](mmtmlm.md)
 11. [Leveraging Prebuilt Models as a Service](lpms.md)
