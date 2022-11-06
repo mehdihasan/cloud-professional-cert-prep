@@ -4,8 +4,8 @@
 
 1. [Selecting Appropriate Storage Technology](selecting-appropriate-storage-tech.md)
 2. [Building and Operationalizing Storage Systems](building-and-operationalizing-storage-systems.md)
-3. [Designing Data Pipelines](designing-data-pipelines.md)
-4. OK [Designing a Data Processing Solution](designing-data-processing-solution.md)
+3. OK [Designing Data Pipelines](designing-data-pipelines.md)
+4. [Designing a Data Processing Solution](designing-data-processing-solution.md)
 5. [Building and Operationalizing Processing Infrastructure](building-operationalizing-processing-infrastructure.md)
 6. [Designing for Security and Compliance](designing-for-security-compliance.md)
 7. [Designing Databases for Reliability, Scalability, and Availability](designing-databases-for-reliability-scalability-availability.md)
