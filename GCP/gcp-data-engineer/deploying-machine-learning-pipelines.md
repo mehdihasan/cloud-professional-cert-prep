@@ -15,8 +15,8 @@ Machine learning projects begin with a problem definition - e.g.
     1. Data Exploration (DataPrep, Cloud Data Fusion)
        - distribution of data: descriptive stastics, histogram, cardinality
        - quality of data: missing or invalid values
-    1. Data Transformation (Cloud DataPrep, Cloud DataFlow): mapping data from its raw form into data structures and formats that allow for machine learning
-    2. Feature Engineering: process of adding or modifying the representation of features to make implicit patterns more explicit
+    2. Data Transformation (Cloud DataPrep, Cloud DataFlow): mapping data from its raw form into data structures and formats that allow for machine learning
+    3. Feature Engineering: process of adding or modifying the representation of features to make implicit patterns more explicit
 3. Data segregation: splitting a data set into three segments
    1. Training Data
    2. Validation Data
@@ -50,3 +50,4 @@ ML ppelines are more `cyclic` than liner (dataflow).
 1. [Python for Data Science](https://courses.cognitiveclass.ai/courses/course-v1:Cognitiveclass+PY0101EN+v2/course/)
 2. [Data Analysis with Python](https://courses.cognitiveclass.ai/courses/course-v1:CognitiveClass+DA0101EN+2017/course/)
 3. [Data Visualization with Python](https://courses.cognitiveclass.ai/courses/course-v1:CognitiveClass+DV0101EN+v1/course/)
+4. [Understanding Pattern Recognition in Machine Learning](https://www.section.io/engineering-education/understanding-pattern-recognition-in-machine-learning/)
