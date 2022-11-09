@@ -24,7 +24,9 @@
 - Pub/Sub
 - Apache Kafka
 - [Cloud Composer](https://cloud.google.com/composer) ([ Apache Airflow ](https://airflow.apache.org/docs/))
-
+- Spark MLib
+  - includes association rules for frequent pattern mining.
+  - 
 
 | service                                       | What                                                       | Open Source Alternative | Layer | Usage |     |
 | --------------------------------------------- | ---------------------------------------------------------- | ----------------------- | ----- | ----- | --- |
@@ -32,3 +34,11 @@
 
 
 ## Explore and Visualize
+
+- `Cloud AI Platform Notebooks`: analysis
+- `Data Studio`: 
+  - visualization, and report building
+  - reporting and visualizing data.
+- `Cloud Datalab`: comprehensive tool for data exploration and analysis.
+- `Data Catalog`:
+  - metadata management service.
