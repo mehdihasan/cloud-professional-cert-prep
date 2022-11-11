@@ -46,7 +46,7 @@ Deep learning is not a kind of problem but a way to solve ML problems. It can be
 
 - Model Training & Evaluation
   - Data Collection & Preparation
-  - Feature Engineering
+  - Feature Engineering: process of identifying which features are useful for building models.
   - Training Models
   - Evaluating Models
     - Accuracy
