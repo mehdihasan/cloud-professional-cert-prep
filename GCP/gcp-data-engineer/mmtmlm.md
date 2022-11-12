@@ -25,12 +25,12 @@
       3. `Collective anomalies`
 3. Reinforcement learning algorithm
 
-|             | SL                                                      | UL                                                                                                                              | RL                                                                                           |
-| ----------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| usage       | classification and regression                                        | find patterns                                                                                                                   | learning and adapting                                                                        |
-| learn from  | labeled examples                                                | starts with unlabeled data and identifies salient features, such as groups or clusters, and anomalies in a data stream. | by interacting with its environment and receiving feedback on the decisions that
-it makes. |
-| application | fraudulent detection, medical, categorize news, insight | clustering, anomaly detection, collaborative filtering                                                                                                   | robotics, game playing                                                                       |
+|             | SL                                                      | UL                                                                                                                      | RL                                                                               |
+| ----------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| usage       | classification and regression                           | find patterns                                                                                                           | learning and adapting                                                            |
+| learn from  | labeled examples                                        | starts with unlabeled data and identifies salient features, such as groups or clusters, and anomalies in a data stream. | by interacting with its environment and receiving feedback on the decisions that |
+| it makes.   |
+| application | fraudulent detection, medical, categorize news, insight | clustering, anomaly detection, collaborative filtering                                                                  | robotics, game playing                                                           |
 
 ## Deep learning / Neural Network
 
@@ -45,14 +45,21 @@ Deep learning is not a kind of problem but a way to solve ML problems. It can be
 ## Engineering machine learning models
 
 - Model Training & Evaluation
-  - Data Collection & Preparation
+  - Data Collection & Prepration
   - Feature Engineering: process of identifying which features are useful for building models.
   - Training Models
   - Evaluating Models
-    - Accuracy
-    - Precision
-    - Recall
-    - F1 Score
+    - Confusion Matrix: True Positive (TP), False Positive (FP), False Negative (FN), True Negative (TN). True Positive & True Negative are always welcome. False Positive or False Negative need to be accepted based on the nature and requirement of the system.
+  
+    | Algorithm Type | Performance Metrics | Description                                                                                         |
+    | -------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
+    | Regression     | R-Squared Value     | 0 to 1. The bigger (near to 1) the better accuracy.                                                 |
+    | Classification | Accuracy            | accuracy = (TP + TN) / (TP + FP + FN + TN)                                                          |
+    |                | Precision           | P = Real Positive / (TP + FP). Answers how many right identifications made. Near to 100% - less FP  |
+    |                | Recall              | R = TP / (Real Positive + FN). Quantify how many we have failed to identify. Near to 100% - less FN |
+    |                | F1 Score            | Harmonic Mean of Precision and Recall                                                               |
+    |                | Specificity         | the bigegr the better.                                                                              |
+    |                | ROC Curve           | how better the model is to differiencite to different classes                                       |
 - Operationalizing ML Models
   - Deploying Models
   - Serving Models
